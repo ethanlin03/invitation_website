@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Open Sans", sans-serif ;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 0px; /* Space above the action container */
+    height: 100vh; /* Full viewport height */
+    align-items: center;
+    max-height: 1600px;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px; /* Space between the button and link */
+    margin-top: 20px; /* Space above the action container */
+    align-items: center;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 40px; /* Adjust font size as needed */
+    text-align: center;
+    font-weight: 550;
+    font-family: "Playwrite BE VLG", cursive;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0px;
+    font-weight: bolder;
+}
+
+#invitation {
+    width: auto;
+    height: 950px;
+    border-radius: 5% 5%; /* Horizontal and vertical radii */
+    border: 30px solid #ddd;
+}
+
+#confetti-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#confetti-button:hover {
+    background-color: #0056b3;
+}
+
+#link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 2; /* Ensure link aligns with button */
+}
+
+#link:hover {
+    text-decoration: underline;
+}

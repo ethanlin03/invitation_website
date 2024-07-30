@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css" >
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="container">
+                <img id="invitation" src="invite.PNG">
+            </div>
+            <div class="container2">
+                <div class="header-container"><h1>You've been invited!</h1></div>
+                <h2>Form & RSVP</h2>
+                <form id="registration-form">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="name" required><br><br>
+
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="name" required><br><br>
+                    
+                    <button id="submit-form" type="submit">Submit</button>
+                </form>
+                <div class="action-container">
+                    <a id="link" href="https://docs.google.com/forms/d/e/1FAIpQLSeuXpYaSJ731lgqxI1BZhzcrmHj97KQb3dUfiz89AnFznYJ-Q/viewform?vc=0&c=0&w=1&flr=0" target="_blank">RSVP</a>
+                    <button id="confetti-button">Click For Confetti</button>
+                </div>
+            </div>
+            <div class="container3">
+                <img id="invitation" src="invite.PNG">
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script1.js"></script>
+</html>

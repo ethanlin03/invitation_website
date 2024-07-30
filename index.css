@@ -1,0 +1,152 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Open Sans", sans-serif ;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if height is set */
+    height: 100px; /* Fixed height for the header container */
+    background-color: transparent; /* Optional: Background color */
+    position: fixed; /* Fix the container at the top */
+    top: 200px; /* Position it at the top */
+    left: 0; /* Align it to the left edge */
+    right: 0; /* Align it to the right edge */
+    z-index: 10; /* Ensure it stays above other content */
+}
+
+h1 {
+    margin: 0px;
+    font-size: 40px; /* Adjust font size as needed */
+    text-align: center;
+    font-weight: 600;
+    font-family: "Playwrite BE VLG", cursive;
+}
+
+h2 {
+    color:black;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between containers */
+    align-items: flex-start; /* Align items to the top */
+    max-height: 1600px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    background-color: #ffffff; /* Optional: Background color */
+    flex: 0.5; /* Takes up equal space */
+    margin-left: 20px; /* Space between containers */
+}
+
+#invitation {
+    width: auto;
+    height: 1000px;
+    border-radius: 5% 5%; /* Horizontal and vertical radii */
+    border: 30px solid #ddd;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    background-color: #ffffff; /* Optional: Background color */
+    flex: 0.5; /* Takes up more space */
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    background-color: #ffffff; /* Optional: Background color */
+    flex: 0.5; /* Takes up equal space */
+    margin-right: 20px; /* Space between containers */
+}
+
+#registration-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Optional: Set a fixed width */
+}
+
+#registration-form label {
+    display: block; /* Ensure labels are on separate lines */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Make label text bold */
+}
+
+#registration-form input,
+#registration-form textarea {
+    width: calc(100% - 22px); /* Adjust for padding and border */
+    padding: 10px; /* Add padding inside the input fields */
+    margin-bottom: 10px; /* Space below each field */
+    border: 1px solid #ddd; /* Light border for fields */
+    border-radius: 5px; /* Rounded corners for fields */
+}
+
+#registration-form button {
+    padding: 10px 20px; /* Add padding inside the button */
+    background-color: #007BFF; /* Background color for the button */
+    color: white; /* Text color for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size for the button */
+}
+
+#registration-form button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px; /* Space between the button and link */
+    margin-top: 20px; /* Space above the action container */
+    align-items: center;
+}
+
+#confetti-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#confetti-button:hover {
+    background-color: #0056b3;
+}
+
+#link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 2; /* Ensure link aligns with button */
+}
+
+#link:hover {
+    text-decoration: underline;
+}
